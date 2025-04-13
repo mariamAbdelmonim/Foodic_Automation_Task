@@ -1,8 +1,11 @@
-Amazon Egypt Automation Framework
-📌 Overview
+# Amazon Egypt Automation Framework
+
+## 📌 Overview
 This framework automates test scenarios for Amazon Egypt using Selenium WebDriver with Java. It follows Page Object Model (POM) design pattern and includes all necessary components for robust test automation.
 
-🛠️ Framework Structure
+## 🛠️ Framework Structure
+
+```
 src/
 ├── main/
 │   ├── java/
@@ -17,27 +20,33 @@ src/
         ├── config/            # Configuration files
         ├── drivers/           # WebDriver executables
         └── testdata/          # Test data files
-🚀 Key Features
-Page Object Model (POM) Design
-Multi-browser support (Chrome, Firefox, Edge)
-Advanced Element Handling
-Data-driven testing (JSON test data)
-Comprehensive Test Coverage
-📽️ Task Execution Demo
+```
+
+## 🚀 Key Features
+- **Page Object Model (POM) Design**
+- **Multi-browser support** (Chrome, Firefox, Edge)
+- **Advanced Element Handling**
+- **Data-driven testing** (JSON test data)
+- **Comprehensive Test Coverage**
+
+## 📽️ Task Execution Demo
 You can watch a full demo of the task execution in the video below:
 
-🔗 Click here to watch the demo
+🔗 [Click here to watch the demo](https://drive.google.com/file/d/1zzHSfnInsP2gzewP_XyIyKPGyARbkJak/view)
 
-⚙️ Configuration
-Edit config.properties to set:
 
+## ⚙️ Configuration
+Edit `config.properties` to set:
+```properties
 base.url=https://www.amazon.eg/
 browser=chrome
 headless=false
 implicit.wait=10
-📂 Test Data
-Edit testdata.json for test-specific data:
+```
 
+## 📂 Test Data
+Edit `testdata.json` for test-specific data:
+```json
 {
   "user": {
     "valid": {
@@ -49,12 +58,16 @@ Edit testdata.json for test-specific data:
     "maxPrice": 15000
   }
 }
-🧪 Running Tests
+```
+
+## 🧪 Running Tests
 Run tests using TestNG:
-
+```bash
 mvn clean test
-Or through IDE using testng.xml
+```
 
+Or through IDE using `testng.xml`
+```
 
 ## 🔧 Dependencies
 - Java 11+
@@ -80,3 +93,4 @@ Or through IDE using testng.xml
 8. Add shipping address
 9. Select cash payment
 10. Verify order total
+
