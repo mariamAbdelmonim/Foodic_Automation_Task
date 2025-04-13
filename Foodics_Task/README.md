@@ -29,6 +29,12 @@ src/
 - **Data-driven testing** (JSON test data)
 - **Comprehensive Test Coverage**
 
+##📽️ Task Execution Demo
+You can watch a full demo of the task execution in the video below:
+
+🔗 Click here to watch the demo
+
+
 ## ⚙️ Configuration
 Edit `config.properties` to set:
 ```properties
