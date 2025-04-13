@@ -1,8 +1,8 @@
 {
   "user": {
     "valid": {
-      "email": "mariamabdelmoneim011@gmail.com",
-      "password": "Password"
+      "email": "",
+      "password": ""
     },
     "invalid": {
       "email": "invalid@example.com",
