@@ -1,0 +1,40 @@
+{
+  "user": {
+    "valid": {
+      "email": "",
+      "password": ""
+    },
+    "invalid": {
+      "email": "invalid@example.com",
+      "password": "WrongPass123"
+    }
+  },
+  "products": {
+    "videoGames": {
+      "category": "Video Games",
+      "subCategory": "All Video Games",
+      "maxPrice": 15000,
+      "filters": {
+        "shipping": "Free Shipping",
+        "condition": "New"
+      },
+      "sortOption": "Price: High to Low"
+    }
+  },
+  "address": {
+    "shipping": {
+      "fullName": "Test User",
+      "phone": "01234567890",
+      "city": "Cairo",
+      "district": "Abdeen-As Saqayin",
+      "street": "123 Test Street",
+      "buildingNum": "0101"
+    }
+  },
+  "payment": {
+    "method": "Cash on Delivery",
+    "confirmationMessage": "Thank you"
+  },
+  "currency": "EGP",
+  "environment": "staging"
+}
