@@ -2,7 +2,7 @@
   "user": {
     "valid": {
       "email": "mariamabdelmoneim011@gmail.com",
-      "password": "MeRo2001"
+      "password": "Password"
     },
     "invalid": {
       "email": "invalid@example.com",
