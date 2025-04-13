@@ -32,7 +32,7 @@ src/
 ## 📽️ Task Execution Demo
 You can watch a full demo of the task execution in the video below:
 
-🔗 Click here to watch the demo
+🔗 [Click here to watch the demo](https://drive.google.com/file/d/1zzHSfnInsP2gzewP_XyIyKPGyARbkJak/view)
 
 
 ## ⚙️ Configuration
